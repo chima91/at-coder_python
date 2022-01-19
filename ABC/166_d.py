@@ -1,0 +1,8 @@
+# https://atcoder.jp/contests/abc166/tasks/abc166_d
+X = int(input())
+
+for A in range(-10**3, 10**3):
+    for B in range(-10**3, 10**3):
+        if A**5 - B**5 == X:
+            print(A, B)
+            exit()
